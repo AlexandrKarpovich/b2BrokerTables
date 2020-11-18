@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>SaaS AWS</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+
+     <!-- comparison-account -->
+    <h2>comparison-account</h2>
+    <div class="comparison-account">
+        <table class="table">
+            <tr class="head">
+                <td>Features</td>
+                <td>Copy Trading</td>
+                <td>PAMM</td>
+                <td>MAM</td>
+                <td>Comment</td>
+            </tr>
+            <tr>
+                <td>Money managers appear in leaderboard</td>
+                <td>optional</td>
+                <td>optional</td>
+                <td>optional</td>
+                <td>No sense in providing opportunity for MAM master to show his performance in the leaderboard because the master can activate /deactivate the investor and use different formulas for copying trades to the investment account.</td>
+            </tr>
+            <tr>
+                <td>Investors can subscribe to money managers on their own</td>
+                <td>optional</td>
+                <td>optional</td>
+                <td>optional</td>
+                <td>Any master account can be hidden from the leaderboard.</td>
+            </tr>
+            <tr>
+                <td>Investors can see opened positions in MT5</td>
+                <td> <img src="img/ok.svg" alt="ok" /></td>
+                <td> <img src="img/close.svg" alt="close" /></td>
+                <td> <img src="img/ok.svg" alt="X-Exclude-blue" /></td>
+                <td>Investors of PAMM accounts only get balance operations on invesmtent accounts with their share of PnL of positions opened on the master account.</td>
+            </tr>
+            <tr>
+                <td>Investors get exactly the same return as the money manager</td>
+                <td> <img src="img/ok.svg" alt="ok" /></td>
+                <td><img src="img/close.svg" alt="close" /></td>
+                <td> <img src="img/ok.svg" alt="ok" /></td>
+                <td>Because MAM and Social Trading are based on copy-trading, execution prices on investors and the master can be slightly different.</td>
+            </tr>
+            <tr>
+                <td>Deposit/Withdrawal on investment account affects equity of Master account</td>
+                <td> <img src="img/ok.svg" alt="ok" /></td>
+                <td> <img src="img/close.svg" alt="close" /></td>
+                <td> <img src="img/ok.svg" alt="ok" /></td>
+                <td>The PAMM-master account is combined from several investment accounts, which is why when you deposit money on a PAMM investment account, the same amount will be deposited to the PAMM Master. In MAM and Copy investment accounts are separated
+                    from master accounts.</td>
+            </tr>
+            <tr>
+                <td>Instant Deposits/Withdrawals</td>
+                <td> <img src="img/ok.svg" alt="ok" /></td>
+                <td>optional</td>
+                <td> <img src="img/ok.svg" alt="ok" /></td>
+                <td>Deposits/Withdrawals in PAMM accounts are usually made with scheduled rollovers so they will not be a surprise for money managers. It is however possible to set them in "Immediate" mode.</td>
+            </tr>
+            <tr>
+                <td>Subscriptions and unsubscriptions are immediate</td>
+                <td> <img src="img/ok.svg" alt="ok" /></td>
+                <td>optional</td>
+                <td> <img src="img/ok.svg" alt="ok" /></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Investor can trade on investment account</td>
+                <td> <img src="img/ok.svg" alt="ok" /></td>
+                <td> <img src="img/close.svg" alt="close" /></td>
+                <td> <img src="img/ok.svg" alt="ok" /></td>
+                <td>MAM and PAMM investment accounts are in "Read-Only" Mode</td>
+            </tr>
+            <tr>
+                <td>Investor can close a position that was opened by a master</td>
+                <td> <img src="img/ok.svg" alt="ok" /></td>
+                <td> <img src="img/close.svg" alt="close" /></td>
+                <td> <img src="img/close.svg" alt="close" /></td>
+                <td> </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- AggDistr tabl -->
+    <h2>AggDistr</h2>
+    <div class="AggDistr">
+        <table class="table">
+            <tr class="head">
+                <td class="item">Liquidity<span>Makers</span></td>
+                <td class="item"> Liquidity<span>Aggregators</span></td>
+                <td class="item"> Liquidity<span>Venues</span></td>
+                <td class="item">Liquidity<span>Takers</span></td>
+            </tr>
+            <table class="body">
+                <tr class="col col-1">
+                    <td>
+                        <ul>
+                            <li>Communication Network</li>
+                            <li>Liquidity Provider 1</li>
+                            <li>Liquidity Provider 2</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Clearing House</li>
+                            <li>Electronic Communication Network</li>
+                            <li>Exchanges</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>OTCs</li>
+                            <li>Crypto Exchanges</li>
+                            <li>Liquidity Providers</li>
+                            <li>Market Makers</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="col col-2">
+                    <td><img src="img/PrimeXM.png" alt="X-Core" /><span>X-Core</span></td>
+                    <td><img src="img/oneZero.png" alt="Hub-oneZero" /><span>Hub</span></td>
+                    <td><img src="img/Marksman.png" alt="Hub-Marksman" /><span>Hub</span></td>
+                </tr>
+                <tr class="col col-3">
+                    <td>
+                        <ul>
+                            <li><img src="img/metatrader-5-logo-og.png" alt="metatrader-5-logo" /></li>
+                            <li><img src="img/metatrader-4-logo-og.png" alt="metatrader-4-logo" /></li>
+                            <li>Servers<span>FIX connections</span></li>
+                            <li>PXM X-CORE</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><img src="img/metatrader-5-logo-og.png" alt="metatrader-5-logo" /></li>
+                            <li>Servers<span>FIX connections</span></li>
+                            <li><img src="img/b2margin.png" alt="B2MARIGIN" /></li>
+                            <li><img src="img/dxTrade.png" alt="dx-trade" /></li>
+                            <li>OZ Hub</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><img src="img/b2bx.png" alt="b2bx" /></li>
+                            <li><img src="img/B2TRADER.png" alt="B2TRADER" /></li>
+                            <li>FIX/REST/SOCKET API</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="col col-4">
+                    <td>PXM X-CORE</td>
+                    <td>White Labels</td>
+                    <td>FX Brokers</td>
+                    <td>OZ Hub</td>
+                    <td>Crypto Brokers</td>
+                    <td>Liquidity Providers</td>
+                    <td>FIX API Clients</td>
+                    <td>Crypto Exchanges</td>
+                    <td>Bridge Providers</td>
+                </tr>
+            </table>
+        </table>
+    </div>
+
+    <!-- State-of-art -->
+    <h2>State-of-art</h2>
+    <div class="State-of-art">
+        <table class="table">
+            <tr class="head">
+                <th class="item">Backend</th>
+                <th class="item">Frontend</th>
+            </tr>
+            <table class="body">
+                <tr class="col col-1">
+                    <td><img src="img/metatrader-5-logo-og-icon.png" alt="metatrader-5-logo-og-icon" />
+                        <div class="text">MetaTrader server<span>Both MT4 and MT5</span></div>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><img src="img/Exclude-blue.svg" alt="X-Exclude-blue" />Allocation Service</li>
+                            <li><img src="img/Exclude-green.svg" alt="Exclude-green" />API Service</li>
+                        </ul>
+                    </td>
+                    <td><img src="img/mySQL.svg" alt="mySQL" />Database</td>
+                </tr>
+                <tr class="col col-2">
+                    <td>Live Leaderboard<span>For broker’s website</span></td>
+                    <td>Web-Interfaces<span>For investors and traders</span></td>
+                    <td>Admin Panel<span>For administrator</span></td>
+                    <td>Manager’s App<span>For broker’s staff</span></td>
+                </tr>
+            </table>
+            <table class="footer">
+                <tr class="col col-1">
+                    <td><img src="img/Exclude-blue.svg" alt="X-Exclude-blue" />
+                        <div class="text"><span>Allocation Service</span>A service which makes all calculations and allocations.</div>
+                    </td>
+                    <td><img src="img/Exclude-green.svg" alt="Exclude-green" />
+                        <div class="text"><span>API Service</span>Service whiсh provides API for client interfaces, widgets and manager’s apps.</div>
+                    </td>
+                    <td><img src="img/z.png" alt="z" />
+                        <div class="text"><span>Performance Monitoring</span>All critical errors are monitored by auto-tests and recovery scrypts.</div>
+                    </td>
+                </tr>
+            </table>
+        </table>
+    </div>
+
+    <!-- reverse-copy -->
+    <h2>reverse-copy</h2>
+    <div class="reverse-copy">
+        <div class="head"><span class="head_item">Private</span><span class="head_item">Public Leaderboard</span></div>
+        <div class="body">
+            <div class="left">
+                <div class="row">
+                    <div class="body_item"><img class="avatar" src="img/avatar.png" alt="avatar" /><span class="blue">Master 1</span></div>
+                    <div class="body_item"><img class="avatar avatar-center" src="img/avatar.png" alt="avatar" /><span class="green">Slave</span></div>
+                </div>
+                <div class="row">
+                    <div class="body_item"><img class="avatar" src="img/avatar.png" alt="avatar" /><span class="blue">Master 3</span></div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="row">
+                    <div class="body_item"><span>Master</span></div>
+                    <div class="body_item"><img class="avatar" src="img/avatar.png" alt="avatar" /><span class="light-blue">Slave 2</span></div>
+                </div>
+                <div class="row">
+                    <div class="body_item"><img class="avatar" src="img/avatar.png" alt="avatar" /><span class="light-blue">Slave 2</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- automate-master-accounts -->
+    <h2>automate-master-accounts</h2>
+    <div class="automate-master-accounts">
+        <div class="head"><span class="head_item">Private</span><span class="head_item">Public Leaderboard</span></div>
+        <div class="body">
+            <div class="left">
+                <div class="row">
+                    <div class="body_item"><img class="avatar" src="img/avatar.png" alt="avatar" /><span class="blue">Master 1</span></div>
+                    <div class="body_item"><img class="avatar avatar-center" src="img/avatar.png" alt="avatar" /><span class="green">Slave</span></div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="row">
+                    <div class="body_item"><span>Master</span></div>
+                    <div class="body_item"><img class="avatar" src="img/avatar.png" alt="avatar" /><span class="light-blue">Slave 2</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="foter">You can copy signals from all your retail clients without them knowing their accounts are being used somewhere.</div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
