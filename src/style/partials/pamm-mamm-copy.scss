@@ -135,7 +135,7 @@ $white: #ffffff;
               bottom: -157px;
               width: 35px;
               height: 122px;
-              background: url('/img/arrow-col3.svg') no-repeat;
+              background: url('../img/arrow-col3.svg') no-repeat;
             }
             &:last-child {
               content: none;
@@ -159,7 +159,7 @@ $white: #ffffff;
               bottom: 50%;
               width: 10px;
               height: 15px;
-              background: url('/img/aroow-right-icon.svg')no-repeat;
+              background: url('../img/aroow-right-icon.svg')no-repeat;
             }
             ul {
               li {
@@ -266,7 +266,7 @@ $white: #ffffff;
             height: 16px;
             top: 50%;
             right: -47px;
-            background: url('/img/arrow-right.svg') no-repeat;
+            background: url('../img/arrow-right.svg') no-repeat;
         }
         }
     }
@@ -293,7 +293,7 @@ $white: #ffffff;
             height: 25px;
             top: 5px;
             left: 0;
-            background-color: #fff;
+            background-color: $white;
         }
         }
         .body_item:nth-child(2){
@@ -304,7 +304,7 @@ $white: #ffffff;
             height: 16px;
             top: 50%;
             left: -45px;
-            background: url('/img/arrow-right.svg') no-repeat;
+            background: url('../img/arrow-right.svg') no-repeat;
         }
         }
 
@@ -506,7 +506,7 @@ $white: #ffffff;
                 height: 16px;
                 top: 50%;
                 right: -47px;
-                background: url('/img/arrow-right.svg') no-repeat;
+                background: url('../img/arrow-right.svg') no-repeat;
               }
             }
             
@@ -522,7 +522,7 @@ $white: #ffffff;
                 height: 82px;
                 top: -15px;
                 right: -100%;
-                background: url('/img/arrow-revesed.png') no-repeat;
+                background: url('../img/arrow-revesed.png') no-repeat;
               }
             }
           }
@@ -568,7 +568,7 @@ $white: #ffffff;
                 height: 16px;
                 top: 50%;
                 left: -45px;
-                background: url('/img/arrow-right.svg') no-repeat;
+                background: url('../img/arrow-right.svg') no-repeat;
               }
             }
           }
@@ -582,7 +582,7 @@ $white: #ffffff;
                 height: 99px;
                 top: -15px;
                 left: -100%;
-                background: url('/img/arrow-up-bottom.svg') no-repeat;
+                background: url('../img/arrow-up-bottom.svg') no-repeat;
               }
             }
           }
@@ -734,7 +734,7 @@ $white: #ffffff;
                 bottom: -98px;
                 width: 162px;
                 height: 145px;
-                background: url('/img/arrow-metaTrader-left.svg') no-repeat;
+                background: url('../img/arrow-metaTrader-left.svg') no-repeat;
               }
               .text {
                 margin-left: 11px;
@@ -777,7 +777,7 @@ $white: #ffffff;
                       top: 19px;
                       width: 41px;
                       height: 36px;
-                      background: url('/img/aroow-left-right.svg') no-repeat;
+                      background: url('../img/aroow-left-right.svg') no-repeat;
                     }
                   }
                   img {
@@ -801,7 +801,7 @@ $white: #ffffff;
                 top: -98px;
                 width: 162px;
                 height: 145px;
-                background: url('/img/arrow-db-left.svg') no-repeat;
+                background: url('../img/arrow-db-left.svg') no-repeat;
               }
               &:after {
                 content: "";
@@ -810,7 +810,7 @@ $white: #ffffff;
                 top: -98px;
                 width: 164px;
                 height: 145px;
-                background: url('/img/arrow-db-right.svg') no-repeat;
+                background: url('../img/arrow-db-right.svg') no-repeat;
               }
   
             }
@@ -848,7 +848,7 @@ $white: #ffffff;
             top: 30px;
             width: 116px;
             height: 306px;
-            background: url('/img/arrow-right-all.svg') no-repeat;
+            background: url('../img/arrow-right-all.svg') no-repeat;
           }
         }
       }
