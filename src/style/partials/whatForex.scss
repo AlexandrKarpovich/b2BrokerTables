@@ -1,0 +1,235 @@
+.wForex {
+  width: 913px;
+
+  &-wrap {
+    width: 100%;
+    max-width: 913px;
+    margin: 0 auto;
+    overflow-x: auto;
+  }
+
+  &-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+    &:nth-child(1) {
+      .wForex-item {
+        margin-top: 18px;
+      }
+    }
+
+    &:nth-child(3) {
+      .wForex-item {
+        margin-bottom: 18px;
+      }
+
+      .wForex-block-svg {
+        top: auto;
+        bottom: 21px;
+      }
+    }
+  }
+
+  &-col {
+    width: 271px;
+  }
+
+  &-block {
+    box-sizing: border-box;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    width: 190px;
+    margin-left: auto;
+    margin-right: 24px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #63636e;
+    background: #ebf0f2;
+    text-align: center;
+
+    & + & {
+      margin-top: 5px;
+    }
+
+    &-svg {
+      position: absolute;
+      display: block;
+      top: 21px;
+      right: 189px;
+    }
+  }
+
+  &-item {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 81px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+    background: #d9e3e8;
+    border-radius: 11px;
+
+    &-title {
+      display: block;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #4f4f53;
+    }
+
+    &-desc {
+      display: block;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 19px;
+      text-transform: uppercase;
+      color: #636a6e;
+      opacity: 0.8;
+      margin-top: 3px;
+    }
+  }
+
+  &-heading {
+    position: relative;
+    margin: 53px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 81px;
+    background: linear-gradient(89.63deg, #229ab8 0%, #1cb1ac 99.3%);
+    border-radius: 11px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25px;
+    color: #ffffff;
+
+    &-svg {
+      position: absolute;
+
+      &:nth-child(1) {
+        bottom: 98%;
+        left: 133px;
+      }
+
+      &:nth-child(2) {
+        bottom: 98%;
+        left: 450px;
+      }
+
+      &:nth-child(3) {
+        bottom: 98%;
+        left: 767px;
+      }
+
+      &:nth-child(4) {
+        top: 98%;
+        left: 133px;
+      }
+
+      &:nth-child(5) {
+        top: 98%;
+        left: 450px;
+      }
+
+      &:nth-child(6) {
+        top: 98%;
+        left: 767px;
+      }
+    }
+  }
+}
+
+.wCryptocurency-wrap {
+  max-width: 980px;
+
+  .wForex {
+    width: 980px;
+
+    .wForex-col {
+      width: 230px;
+
+      .wForex-block {
+        width: 175px;
+        margin-right: 13px;
+
+        .wForex-block-svg {
+          right: 97%;
+        }
+
+        &:before {
+          content: '';
+          position: absolute;
+          z-index: 2;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 10px;
+          background: #ebf0f2;
+        }
+      }
+    }
+  }
+  .wForex-item-desc {
+    font-size: 10px;
+  }
+
+  .wForex-heading {
+    max-width: 913px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .wForex-heading-svg {
+    &:nth-child(1) {
+      bottom: 99%;
+      left: 72px;
+    }
+
+    &:nth-child(2) {
+      bottom: 99%;
+      left: 325px;
+    }
+
+    &:nth-child(3) {
+      bottom: 99%;
+      left: 572px;
+    }
+
+    &:nth-child(4) {
+      bottom: 99%;
+      left: 72px;
+    }
+
+    &:nth-child(5) {
+      top: 99%;
+      left: 325px;
+    }
+
+    &:nth-child(6) {
+      top: 99%;
+      left: 572px;
+    }
+
+    &:nth-child(7) {
+      top: 99%;
+      right: 72px;
+    }
+
+    &:nth-child(8) {
+      bottom: 99%;
+      right: 72px;
+    }
+  }
+}

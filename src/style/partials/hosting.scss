@@ -1,0 +1,356 @@
+.hostingScheme {
+  width: 980px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+
+  &-wrap {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    overflow-x: auto;
+  }
+
+  &-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 76px;
+    background: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+    & + & {
+      margin-top: 10px;
+    }
+  }
+
+  &-col {
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.4);
+
+    .TableArch-item {
+      width: 210px;
+      height: 76px;
+      margin-bottom: 50px;
+    }
+
+    &:nth-child(2n - 1) {
+      background: #eff4f6;
+    }
+
+    &:nth-child(1) {
+      padding: 45px 42px 43px 84px;
+      width: 336px;
+
+      .TableArch-item {
+        &:nth-child(1) {
+          margin-bottom: 202px;
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      padding: 45px 52px 43px 48px;
+      width: 319px;
+
+      .TableArch-item {
+        margin-left: 0;
+
+        &:nth-child(1) {
+          span {
+            font-size: 21px;
+          }
+          margin-bottom: 202px;
+        }
+
+        &:nth-child(4) {
+          margin-bottom: 10px;
+        }
+      }
+
+      .hostingScheme-info-item {
+        margin-left: 39px;
+      }
+    }
+
+    &:nth-child(3) {
+      width: 325px;
+      padding: 45px 78px 43px 31px;
+
+      .TableArch-item {
+        margin-left: auto;
+        margin-right: 0;
+
+        &:nth-child(1) {
+          margin-bottom: 11px;
+
+          &:before {
+            background-color: #b0c4d4;
+          }
+
+          span {
+            font-size: 21px;
+          }
+        }
+
+        &:nth-child(2) {
+          span {
+            font-size: 21px;
+          }
+        }
+      }
+
+      .hostingScheme-info-item {
+        margin-left: auto;
+
+        &:nth-child(4) {
+          margin-bottom: 51px;
+        }
+      }
+
+      .hostingScheme-item {
+        margin-left: auto;
+
+        &:nth-child(6) {
+          margin-bottom: 15px;
+        }
+
+        &:nth-child(14) {
+          margin-top: 88px;
+        }
+      }
+
+      .hostingScheme-info-item + .hostingScheme-info-item {
+        margin-top: 9px;
+      }
+    }
+  }
+
+  &-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    & + & {
+      margin-top: 6px;
+    }
+
+    &-core {
+      position: relative;
+      display: flex;
+      box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+      width: 91px;
+      height: 80px;
+      background: #ffffff;
+      border: 2px solid #eff4f6;
+      border-radius: 4px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+    }
+
+    &-text {
+      display: block;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 23px;
+      margin-left: 7px;
+      color: #79838b;
+    }
+
+    &-svg1 {
+      display: block;
+      margin: 6px auto;
+    }
+
+    &-svg2 {
+      position: absolute;
+      z-index: 2;
+      top: 60px;
+    }
+
+    &-svg3 {
+      position: absolute;
+      top: calc(100% + 12px);
+    }
+
+    &-svg4 {
+      display: block;
+      margin: 19px auto;
+    }
+
+    &-svg5 {
+      position: absolute;
+      top: 100%;
+      left: 15px;
+    }
+
+    &-svg6 {
+      position: absolute;
+      right: calc(100% - 5px);
+      top: 46px;
+    }
+
+    &-svg7 {
+      position: absolute;
+      top: 38px;
+      left: 100%;
+    }
+
+    &-svg8 {
+      position: absolute;
+      left: calc(100% + 12px);
+    }
+
+    &-svg9 {
+      position: absolute;
+      z-index: 6;
+      right: calc(100% + 12px);
+    }
+
+    &-svg10 {
+      position: absolute;
+      left: 15px;
+      top: 100%;
+    }
+
+    &-svg11 {
+      position: absolute;
+      left: 100%;
+      top: -83px;
+    }
+
+    &-item {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 171px;
+      background-color: #fff;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+      color: #637786;
+
+      & + & {
+        margin-top: 10px;
+      }
+    }
+
+    &-wrap {
+      box-sizing: border-box;
+      border: 4px solid #03e2b2;
+      border-radius: 4px;
+      padding: 6px;
+
+      &-block {
+        box-sizing: border-box;
+        width: 218px;
+        padding: 7px;
+        border: 2px solid #03e2b2;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  &-desc {
+    width: 120px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    margin: 13px auto 0;
+    color: #637786;
+  }
+
+  &-transition {
+    position: relative;
+    z-index: 5;
+    margin-right: 4px;
+
+    &-svg1 {
+      position: absolute;
+      display: block;
+      top: 100%;
+    }
+  }
+
+  &-topRow {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 84px 34px;
+    background-color: #eff4f6;
+  }
+
+  &-topCol {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 115px;
+    height: 107px;
+    background: #ffffff;
+    border-radius: 5px;
+
+    span {
+      display: block;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      width: 103px;
+      height: 35px;
+      margin: 10px auto 0;
+    }
+
+    &:nth-child(1),
+    &:nth-child(2) {
+      .hostingScheme-dop-icon-svg {
+        left: 50px;
+      }
+    }
+
+    &:nth-child(4) {
+      .hostingScheme-dop-icon-svg {
+        top: 100%;
+        right: 50px;
+      }
+    }
+
+    &:nth-child(5) {
+      .hostingScheme-dop-icon-svg {
+        right: 50px;
+      }
+    }
+  }
+
+  &-dop-icon {
+    display: block;
+
+    &-svg {
+      position: absolute;
+      display: block;
+      top: calc(100% + 10px);
+    }
+  }
+
+  &-info-dop-svg {
+    position: absolute;
+    left: calc(100% + 20px);
+  }
+}

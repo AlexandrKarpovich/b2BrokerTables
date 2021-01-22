@@ -16,7 +16,6 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    letter-spacing: -0.292236px;
     text-transform: capitalize;
     color: #000000;
     background: #ffffff;
@@ -114,7 +113,6 @@
       font-size: 16px;
       line-height: 19px;
       text-align: center;
-      letter-spacing: -0.292236px;
       color: #000000;
     }
 
@@ -178,6 +176,12 @@
       }
     }
 
+    &-purp {
+      &:before {
+        background: linear-gradient(to right, #ab00e8, #2f77f9);
+      }
+    }
+
     &-gray {
       &:before,
       &:after {
@@ -202,7 +206,7 @@
     position: absolute;
     z-index: 10;
     top: 125px;
-    left: 50%;
+    left: 49.5%;
     display: block;
     margin-left: -112px;
   }
@@ -211,7 +215,7 @@
     position: absolute;
     z-index: 10;
     top: -93px;
-    left: 99%;
+    left: 100%;
     display: block;
   }
 
@@ -224,7 +228,7 @@
   &-svg4 {
     position: absolute;
     z-index: 10;
-    top: 42%;
+    top: 41%;
     left: 50%;
     display: block;
     width: 620px;
@@ -254,7 +258,16 @@
     top: calc(100% + 12px);
   }
 
+  &-svg9 {
+    position: absolute;
+    right: 101%;
+    top: 39%;
+    z-index: 0;
+  }
+
   &-item-wrap {
+    position: relative;
+    z-index: 2;
     box-sizing: border-box;
     width: 203px;
     padding: 10px;

@@ -1,4 +1,5 @@
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: rgba(224, 222, 222, 0.575);
 }
 
@@ -49,7 +50,6 @@ body {
       font-weight: 500;
       font-size: 21px;
       line-height: 25px;
-      letter-spacing: -0.292236px;
       text-transform: capitalize;
       color: #000000;
       background-color: #fff;
@@ -189,7 +189,6 @@ body {
       font-weight: 500;
       font-size: 16px;
       line-height: 19px;
-      letter-spacing: -0.292236px;
       text-transform: capitalize;
       color: #000000;
     }
@@ -314,7 +313,7 @@ body {
       width: 72px;
       margin: 0 auto;
       background: #ffffff;
-      border-radius: 8px;
+      border-radius: 6px;
     }
 
     &-iconWrapper {
@@ -355,7 +354,6 @@ body {
       font-weight: 500;
       font-size: 16px;
       line-height: 18px;
-      letter-spacing: -0.292236px;
       color: #ffffff;
 
       &--green {
@@ -459,7 +457,7 @@ body {
   &-row3-svg {
     position: absolute;
     top: 12px;
-    left: 100%;
+    left: 168px;
     display: block;
     z-index: 2;
     margin-left: -15px;
@@ -468,7 +466,7 @@ body {
   &-row4-svg {
     position: absolute;
     top: -56%;
-    left: 100%;
+    left: 171px;
     display: block;
     margin-left: -15px;
   }
@@ -523,32 +521,36 @@ body {
 
   .StableCoins-step2-svg-active {
     position: absolute;
-    top: 59%;
+    top: 60%;
     right: 104%;
   }
 }
 
-.StableCoins-sendBase-item-active {
-  position: relative;
-  z-index: 20;
+.StableCoins-sendBase {
+  .StableCoins-sendBase-item-active {
+    position: relative;
+    z-index: 20;
+    font-size: 13px;
+    line-height: 18px;
 
-  &:before {
-    content: '';
-    position: absolute;
-    z-index: 21;
-    display: block;
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    border: 4px solid #03e2b2;
-    border-radius: 4px;
+    &:before {
+      content: '';
+      position: absolute;
+      z-index: 21;
+      display: block;
+      box-sizing: border-box;
+      height: 100%;
+      width: 100%;
+      border: 4px solid #03e2b2;
+      border-radius: 4px;
+    }
   }
 }
 
 .StableCoins-step2-svg2-active {
   position: absolute;
   top: 37px;
-  right: 91.5%;
+  right: 155.2px;
   display: block;
 }
 
@@ -596,7 +598,8 @@ body {
 
     .StableCoins-step4-svg2-active {
       position: absolute;
-      left: 147px;
+      z-index: 2;
+      left: 149px;
       top: -3px;
       display: block;
     }
@@ -605,17 +608,18 @@ body {
 
 .StableCoins-step2-2-svg-active {
   position: absolute;
-  top: 42%;
-  right: 86%;
+  top: 55px;
+  right: 146px;
   display: block;
 }
 
 .StableCoins-step3-2-svg1-active {
-  top: 47%;
+  top: 61px;
 }
 
 .StableCoins-row:nth-child(3) .StableCoins-mark--gray.StableCoins-mark--active:last-child svg {
   top: -83%;
+  left: 168px;
 }
 
 .StableCoins-row:nth-child(3)
@@ -738,8 +742,8 @@ body {
 
   &-title {
     display: block;
-    font-weight: 500;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 10px;
     line-height: 19px;
     text-transform: uppercase;
     color: #ffffff;
@@ -749,7 +753,8 @@ body {
 
   &-desc {
     display: block;
-    font-weight: normal;
+    font-style: normal;
+    font-weight: bold;
     font-size: 16px;
     line-height: 19px;
     color: #ffffff;
@@ -873,7 +878,6 @@ body {
       font-weight: normal;
       font-size: 16px;
       line-height: 25px;
-      letter-spacing: -0.5px;
       color: #ffffff;
       background: #313b47;
     }
@@ -973,5 +977,17 @@ body {
   &-horizontal-arrow {
     display: block;
     margin: 0 16px;
+  }
+}
+
+.StableCoins-row:nth-child(3) .StableCoins-mark--big.StableCoins-mark--active {
+  .StableCoins-row3-svg.StableCoins-disabled-arrow {
+    left: 164px;
+  }
+}
+
+.StableCoins-mark.StableCoins-mark--big.StableCoins-mark--gray.StableCoins-mark--active {
+  .StableCoins-row4-svg.StableCoins-disabled-arrow {
+    left: 168px;
   }
 }
